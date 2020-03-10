@@ -25,6 +25,7 @@ public class Computer {
         return true;
     }
 
-    //add toString
-
+    public String toString(){
+        return "Processor Power: " + getProcessor() + " Memory Size: " + getMemorySize();
+    }
 }
